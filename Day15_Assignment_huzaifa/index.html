@@ -1,1 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Registration Form</h2>
+  <form id="registrationForm">
+    <input type="text" id="name" placeholder="Name" />
+    <input type="email" id="email" placeholder="Email" />
+    <input type="tel" id="phone" placeholder="Phone" />
+    <br />
+    <button type="submit">Submit</button>
+    <button type="button" id="clearBtn">Clear</button>
+    <div id="message"></div>
+  </form>
+
+  <div id="submittedData">
+    <h3>Submitted Entries:</h3>
+    <ul id="dataList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
